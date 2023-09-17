@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    
+    <title>Carrinho</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Assets/LogoUniLimp.png" alt="">
+        <nav class="title">
+            <h1>Uni Limp</h1>
+            <h2>Produtos de Limpeza</h2>
+        </nav>
+        <img class="icon-home" src="Assets/🦆 icon _home_ (1).png" alt="">
+    </header>    
+    <main>
+
+        <section class="section-form">
+            <h3>Complete seu pedido</h3>
+            <div class="container-form">
+                <span>
+                    Endereço de Entrega
+                </span>
+                <div class="section-inputs">
+
+                    <div class="container-inputs">
+                        <input type="text" class="inputs" id="input-nome" placeholder="Nome">
+                        <input type="number" class="inputs" id="input-cep" placeholder="CEP">
+                    </div>
+
+                    <div class="container-inputs">
+                        <input type="text" class="inputs" id="input-rua" placeholder="Rua">
+                        <input type="number" class="inputs" id="input-numero" placeholder="Número">
+                    </div>
+
+                    <div class="container-inputs">
+                        <input type="text" class="inputs" id="input-bairro" placeholder="Bairro">
+                        <input type="text" class="inputs" id="input-complemento" placeholder="Complemento">
+                    </div>
+
+                    <span>O pagamento é feito na entrega.</span>
+                    <select name="payment" class="inputs" id="input-payment">
+                        <option value="pix">Pix</option>
+                        <option value="dinheiro">Dinheiro</option>
+                        <option value="cartão">Cartão</option>
+                    </select>
+
+                </div>
+    
+            </div>
+        </section>
+
+        <section class="section-carShop">
+            <h3>Produtos selecionados</h3>
+            <div class="container-carShop">
+                <div class="container-products">
+
+                </div>
+                <div class="container-finished">
+                    <div class="info-total">
+                        <p>Total</p>
+                        <span>R$ 41,70</span>
+                    </div>
+                    <button class="button-send">Enviar pedido para WhatsApp</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
