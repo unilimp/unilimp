@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 250px;
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+.title{
+    color: #9857B7;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+.product-category {
+    background-color: rgb(224, 224, 224)
+    ;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-wrapper {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto; /* Permite a rolagem horizontal */
+    scroll-behavior: smooth; /* Adiciona animação suave à rolagem (opcional) */
+    padding: 10px 0;
+}
+
+.product {
+    max-width: 250px;
+    height: 350px;
+    background-color: rgb(255, 255, 255)
+    ;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #B77DE4;
+}
+
+button {
+    background-color: #EDE7EC;
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #B77DE4;
+}
+/* Estilização da imagem replicada */
+.rectangle {
+    width: 1197px;
+    height: 4px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABK0AAAAECAYAAABMZcznAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA5SURBVHgB7dhBAQAgCAQwNKiF7EJFqHGPLcbOfz0FAAAAAEFuAQAAAEAYaQUAAABAHGkFAAAAQJwF+m0Cnm8pFbsAAAAASUVORK5CYII=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+/* Botões de navegação estilizados */
+
+.product-category {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-behavior: smooth; /* Adiciona animação suave à rolagem (opcional) */
+    padding: 10px 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.product {
+    width: 250px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #B77DE4;
+}
+
+/* Estilização dos botões de navegação */
+.prev-button,
+.next-button {
+    background-color: #B77DE4;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilização no hover */
+.prev-button:hover,
+.next-button:hover {
+    background-color: #9857B7; /* Cor roxa mais escura no hover */
+}
